@@ -1,0 +1,17 @@
+@relation YesNoMaybe?
+
+
+@attribute abc {a, b, c}
+@attribute xyz {x, y, z}
+@attribute play? {yes, no, maybe}
+ 
+@data
+a, x, yes
+b, x, yes
+c, x, yes
+a, y, yes
+b, y, no
+c, y, no
+a, z, maybe
+b, z, maybe
+c, z, no
